@@ -37,7 +37,7 @@
                 android:layout_width="202dp"
                 android:layout_height="144dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/bnpbp" />
+                app:srcCompat="@drawable/logo_uns" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
