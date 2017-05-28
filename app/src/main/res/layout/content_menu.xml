@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="25dp"
                 android:paddingTop="5dp"
-                android:text="Nama    : Sorja Kusuma"/>
+                android:text="Nama    : Sorja Koesuma"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -173,6 +173,90 @@
                     android:paddingBottom="15dp"
                     android:textColor="#fff"
                     android:text="Kebutuhan lauk-pauk : 150 orang"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_red_light"
+                    android:drawableRight="@android:drawable/ic_dialog_info"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Data Stok"
+                    android:textAlignment="viewStart"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:textColor="#fff"
+                    android:text="Stok Beras : 100 Kg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#fff"
+                    android:text="Stok Air Minum : 1000 Liter"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="#fff"
+                    android:text="Stok lauk-pauk : 300 orang"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_purple"
+                    android:drawableRight="@android:drawable/ic_dialog_info"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Info Bantuan"
+                    android:textAlignment="viewStart"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:textColor="#fff"
+                    android:text="Beras 60 Kg (proses kirim)"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#fff"
+                    android:text="Air Minum 600 Liter (proses kirim)"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="#fff"
+                    android:text="Pakaian bekas 150 setel (diterima)"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

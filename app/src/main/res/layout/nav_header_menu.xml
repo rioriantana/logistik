@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/nav_header_height"
+    android:layout_height="160dp"
     android:background="@color/colorPrimaryDark"
     android:backgroundTint="@color/colorPrimaryDark"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:weightSum="1">
 
@@ -20,14 +20,14 @@
         android:layout_width="85dp"
         android:layout_height="59dp"
         android:layout_weight="1.73"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:paddingTop="16dp"
         app:srcCompat="@drawable/bnpbp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Sorja Kusuma"
+        android:text="Sorja Koesuma"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
