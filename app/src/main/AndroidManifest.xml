@@ -9,9 +9,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ico_bnpb"
+        android:icon="@drawable/logo_uns1"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ico_bnpb"
+        android:roundIcon="@drawable/logo_uns1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity

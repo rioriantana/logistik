@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="@color/colorPrimaryDark"
-    android:backgroundTint="@color/colorPrimaryDark"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingBottom="16dp"
@@ -21,7 +21,7 @@
         android:layout_height="59dp"
         android:layout_weight="1.73"
         android:paddingTop="16dp"
-        app:srcCompat="@drawable/bnpbp" />
+        app:srcCompat="@drawable/logo_uns1" />
 
     <TextView
         android:layout_width="match_parent"
