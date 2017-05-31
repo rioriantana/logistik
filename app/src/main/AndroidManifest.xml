@@ -27,18 +27,23 @@
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PengungsiActivity"
-            android:parentActivityName=".MenuActivity"
-            android:label="Data Pengungsi"/>
-        <activity android:name=".KebutuhanActivity"
-            android:parentActivityName=".MenuActivity"
-            android:label="Kebutuhan Logistik"/>
-        <activity android:name=".StokActivity"
-            android:parentActivityName=".MenuActivity"
-            android:label="Stok Logistik"/>
-        <activity android:name=".BantuanActivity"
-            android:parentActivityName=".MenuActivity"
-            android:label="Bantuan Logistik"></activity>
+        <activity
+            android:name=".PengungsiActivity"
+            android:label="Data Pengungsi"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".KebutuhanActivity"
+            android:label="Kebutuhan Logistik"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".StokActivity"
+            android:label="Stok Logistik"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".BantuanActivity"
+            android:label="Bantuan Logistik"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>

@@ -74,6 +74,36 @@
                     android:text="Kabupaten Deli Serdang"
                     android:textColor="#fff" />
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray"
+                    android:drawableRight="@android:drawable/ic_dialog_info"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Informasi Terkini"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/btnInfo"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="Lokasi sudah mulai kondusif. Pengungsi sudah banyak yang meninggalkan tempat pengungsian. Hanya tinggal beberapa keluarga yang rumahnya hancur yang masih menetap di pengungsian."
+                    android:textColor="#fff" />
+            </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -110,6 +140,7 @@
                 android:paddingBottom="15dp"
                 android:paddingLeft="15dp"
                 android:paddingTop="15dp"
+                android:id="@+id/btnPengungsi"
                 android:text="Informasi Pengungsi"
                 android:textAlignment="viewStart"
                 android:paddingRight="15dp"
@@ -153,6 +184,7 @@
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
                     android:paddingTop="15dp"
+                    android:id="@+id/btnKebutuhan"
                     android:text="Data Kebutuhan"
                     android:textAlignment="viewStart"
                     android:textColor="#fff"
@@ -191,6 +223,7 @@
                     android:layout_height="wrap_content"
                     android:background="@android:color/holo_red_light"
                     android:drawableRight="@android:drawable/ic_dialog_info"
+                    android:id="@+id/btnStok"
                     android:paddingBottom="15dp"
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
@@ -233,6 +266,7 @@
                     android:layout_height="wrap_content"
                     android:background="@android:color/holo_purple"
                     android:drawableRight="@android:drawable/ic_dialog_info"
+                    android:id="@+id/btnBantuan"
                     android:paddingBottom="15dp"
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
